@@ -1,6 +1,0 @@
-{
-  "redirects": [
-    { "source": "/alipay", "destination": "https://cdn.jsdelivr.net/gh/dogou/image@master/pay/alipay.png" },
-    { "source": "/wxpay", "destination": "https://cdn.jsdelivr.net/gh/dogou/image@master/pay/wxpay.png" },
-  ]
-}

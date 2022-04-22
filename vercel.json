@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/alipay", "status": 307, "dest": "https://cdn.jsdelivr.net/gh/dogou/image@master/pay/alipay.png" },
+    { "src": "/wxpay", "status": 307, "dest": "https://cdn.jsdelivr.net/gh/dogou/image@master/pay/wxpay.png" },
+  ]
+}

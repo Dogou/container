@@ -1,6 +1,6 @@
 {
   "redirects": [
-    { "source": "/alipay", "destination": "/alipay.html", "permanent": true },
-    { "source": "/wxpay", "destination": "/wxpay.html", "permanent": true },
+    { "source": "/alipay", "destination": "/alipay.html" },
+    { "source": "/wxpay", "destination": "/wxpay.html" },
   ]
 }

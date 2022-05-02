@@ -26,22 +26,22 @@
       ]
     }
   ],
-  "rewrites": [
+  "redirects": [
     {
   "source": "/head/(.*)",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/"
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/(.*)"
     },
     {
-  "source": "/pay/",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/pay/"
+  "source": "/pay/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/pay/(.*)"
     },
     {
-  "source": "/temp/",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/temp/"
+  "source": "/temp/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/temp/(.*)"
     },
    {
-  "source": "/save/",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/save/"
+  "source": "/save/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/save/(.*)"
     }
   ]
 }

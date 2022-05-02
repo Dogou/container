@@ -26,7 +26,7 @@
       ]
     }
   ],
-  "rewrites": [
+  "redirects": [
     {
   "source": "/head/:path*",
   "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/:path*"

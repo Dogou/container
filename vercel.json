@@ -29,7 +29,7 @@
   "rewrites": [
     {
   "source": "/head/:path*",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/$1"
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/:path*"
     },
     {
   "source": "/pay/:path*",

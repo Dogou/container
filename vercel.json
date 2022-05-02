@@ -26,6 +26,8 @@
       ]
     }
   ],
+  
+  
   "rewrites": [
     {
   "source": "/head/:path*",
@@ -42,11 +44,15 @@
    {
   "source": "/save/:path*",
   "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/save/:path*"
-    },
-   {
+    }
+  ],
+  
+  
+  "redirects": [
+    {
   "source": "/index.html",
   "destination": "/404.html"
-  "statusCode": "520"
+  "statusCode": 520
     }
   ]
 }

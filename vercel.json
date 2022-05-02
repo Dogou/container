@@ -16,6 +16,7 @@
 	{ "source": "/head/:path*", "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/:path*" },
 	{ "source": "/pay/:path*", "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/pay/:path*" },
 	{ "source": "/temp/:path*", "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/temp/:path*" },
+	{ "source": "/aaa", "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/pan/favicon.ico" },
 	{ "source": "/save/:path*", "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/save/:path*" }
 		]
 }

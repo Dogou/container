@@ -28,20 +28,20 @@
   ],
   "rewrites": [
     {
-  "source": "/head/:path*",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/:path*"
+  "source": "/head/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/(.*)"
     },
     {
-  "source": "/pay/:path*",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/pay/:path*"
+  "source": "/pay/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/pay/(.*)"
     },
     {
-  "source": "/temp/:path*",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/temp/:path*"
+  "source": "/temp/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/temp/(.*)"
     },
    {
-  "source": "/save/:path*",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/save/:path*"
+  "source": "/save/(.*)",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/save/(.*)"
     }
   ]
 }

@@ -29,7 +29,7 @@
   "redirects": [
     {
   "source": "/head/(.*)",
-  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/(.*)"
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/head/"
     },
     {
   "source": "/pay/(.*)",

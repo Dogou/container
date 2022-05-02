@@ -46,7 +46,7 @@
    {
   "source": "/index.html",
   "destination": "/404.html"
-  "statusCode": 520
+  "statusCode": "520"
     }
   ]
 }

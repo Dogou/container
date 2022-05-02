@@ -25,10 +25,11 @@
         }
       ]
     }
-  ]
-},
-{
+  ],
   "rewrites": [
-    { "source": "/:path", "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/:path" }
-      ]
+    {
+  "source": "/:path",
+  "destination": "https://fastly.jsdelivr.net/gh/dogou/img@master/:path"
+    }
+  ]
 }
